@@ -4,6 +4,11 @@ body {
   font-family: sans-serif;
 }
 
+.porker{
+  width: 200px;
+  height: 200px;
+}
+
 .App {
   margin: 0% 5% 0% 5%;
   text-align: center;
@@ -59,7 +64,6 @@ body {
 
 ul {
   list-style-type: none;
-  list-style: none;
 }
 
 .normalText ul {
@@ -89,6 +93,8 @@ ul {
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+  width: 250px;
+  height: 270px;
 }
 
 .minBackgroundSneak {
@@ -112,6 +118,9 @@ ul {
   color: #FBB;
 }
 
+.pigTile p {
+  color: #FBB;
+}
 .minPigTile {
   width: 250px;
   height: 250px;
