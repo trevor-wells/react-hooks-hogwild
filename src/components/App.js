@@ -15,7 +15,7 @@ function App() {
 	return (
 		<div className="App">
 			<Nav />
-			<HogSort setHogData={setHogData}/>
+			<HogSort ogHogs={hogs} setHogData={setHogData}/>
 			<HogFilter filter={filter} setFilter={setFilter}/>
 			<HogContainer hogs={hogsToDisplay}/>
 		</div>
