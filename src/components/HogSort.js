@@ -1,6 +1,10 @@
 import React from "react"
 
-export default function HogSort({ogHogs, setHogData}){
+export default function HogSort({setSort}){
+
+    function handleClick(event){
+        setSort(event.target.id)
+    }
     return(
         <div>
             <button id="og" onClick={handleClick}>Default Order</button>
